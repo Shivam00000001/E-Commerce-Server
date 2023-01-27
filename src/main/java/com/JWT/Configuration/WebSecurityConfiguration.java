@@ -60,6 +60,7 @@ public class WebSecurityConfiguration {
 		.and()
 		.sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 		
-		return http.addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class).build();
+		http.addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class);
+		return http.build();
 	}
 }
