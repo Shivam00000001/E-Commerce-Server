@@ -8,11 +8,11 @@
 		<version>3.0.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.JWT</groupId>
-	<artifactId>JWT_Token_Implementation</artifactId>
+	<groupId>com.ECommerce</groupId>
+	<artifactId>E-Commerce</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>JWT_Token_Implementation</name>
-	<description>JWT Token Implementation</description>
+	<name>E-Commerce-Server</name>
+	<description>E-Commerce Project</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
