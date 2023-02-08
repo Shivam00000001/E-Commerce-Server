@@ -1,10 +1,10 @@
-package com.JWT.Service;
+package com.ECommerce.Service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.JWT.Dao.RoleDao;
-import com.JWT.Entity.Role;
+import com.ECommerce.Dao.RoleDao;
+import com.ECommerce.Entity.Role;
 
 @Service
 public class RoleService {

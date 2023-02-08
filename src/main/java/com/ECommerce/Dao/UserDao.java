@@ -1,11 +1,11 @@
-package com.JWT.Dao;
+package com.ECommerce.Dao;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.JWT.Entity.Role;
+import com.ECommerce.Entity.User;
 
 @Repository
-public interface RoleDao extends CrudRepository<Role, String> {
+public interface UserDao extends CrudRepository<User, String> {
 
 }

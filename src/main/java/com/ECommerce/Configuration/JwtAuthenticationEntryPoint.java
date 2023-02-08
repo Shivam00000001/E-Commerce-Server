@@ -1,4 +1,4 @@
-package com.JWT.Configuration;
+package com.ECommerce.Configuration;
 
 import java.io.IOException;
 

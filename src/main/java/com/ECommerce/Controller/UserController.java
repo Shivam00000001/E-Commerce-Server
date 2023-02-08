@@ -1,4 +1,4 @@
-package com.JWT.Controller;
+package com.ECommerce.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.JWT.Entity.User;
-import com.JWT.Service.UserService;
+import com.ECommerce.Entity.User;
+import com.ECommerce.Service.UserService;
 
 import jakarta.annotation.PostConstruct;
 

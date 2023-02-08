@@ -1,12 +1,12 @@
-package com.JWT.Controller;
+package com.ECommerce.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.JWT.Entity.Role;
-import com.JWT.Service.RoleService;
+import com.ECommerce.Entity.Role;
+import com.ECommerce.Service.RoleService;
 
 @RestController
 public class RoleController {

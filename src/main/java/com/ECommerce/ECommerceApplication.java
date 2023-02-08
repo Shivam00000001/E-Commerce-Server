@@ -1,13 +1,13 @@
-package com.JWT;
+package com.ECommerce;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JwtTokenImplementationApplication {
+public class ECommerceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JwtTokenImplementationApplication.class, args);
+		SpringApplication.run(ECommerceApplication.class, args);
 	}
 
 }

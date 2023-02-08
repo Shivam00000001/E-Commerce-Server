@@ -1,4 +1,4 @@
-package com.JWT.Service;
+package com.ECommerce.Service;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -14,11 +14,11 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.JWT.Dao.UserDao;
-import com.JWT.Entity.JwtRequest;
-import com.JWT.Entity.JwtResponse;
-import com.JWT.Entity.User;
-import com.JWT.Util.JwtUtil;
+import com.ECommerce.Dao.UserDao;
+import com.ECommerce.Entity.JwtRequest;
+import com.ECommerce.Entity.JwtResponse;
+import com.ECommerce.Entity.User;
+import com.ECommerce.Util.JwtUtil;
 
 @Service
 public class JwtService implements UserDetailsService {

@@ -1,4 +1,4 @@
-package com.JWT.Configuration;
+package com.ECommerce.Configuration;
 
 import java.io.IOException;
 
@@ -10,8 +10,8 @@ import org.springframework.security.web.authentication.WebAuthenticationDetailsS
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.JWT.Service.JwtService;
-import com.JWT.Util.JwtUtil;
+import com.ECommerce.Service.JwtService;
+import com.ECommerce.Util.JwtUtil;
 
 import io.jsonwebtoken.ExpiredJwtException;
 import jakarta.servlet.FilterChain;

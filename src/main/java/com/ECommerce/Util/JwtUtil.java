@@ -1,4 +1,4 @@
-package com.JWT.Util;
+package com.ECommerce.Util;
 
 import java.util.Date;
 import java.util.HashMap;

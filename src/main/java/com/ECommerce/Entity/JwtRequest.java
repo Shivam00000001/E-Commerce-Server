@@ -1,4 +1,4 @@
-package com.JWT.Entity;
+package com.ECommerce.Entity;
 
 public class JwtRequest {
 

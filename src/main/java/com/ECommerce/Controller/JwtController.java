@@ -1,4 +1,4 @@
-package com.JWT.Controller;
+package com.ECommerce.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.JWT.Entity.JwtRequest;
-import com.JWT.Entity.JwtResponse;
-import com.JWT.Service.JwtService;
+import com.ECommerce.Entity.JwtRequest;
+import com.ECommerce.Entity.JwtResponse;
+import com.ECommerce.Service.JwtService;
 
 @RestController
 @CrossOrigin

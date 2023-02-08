@@ -1,4 +1,4 @@
-package com.JWT.Service;
+package com.ECommerce.Service;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -7,10 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.JWT.Dao.RoleDao;
-import com.JWT.Dao.UserDao;
-import com.JWT.Entity.Role;
-import com.JWT.Entity.User;
+import com.ECommerce.Dao.RoleDao;
+import com.ECommerce.Dao.UserDao;
+import com.ECommerce.Entity.Role;
+import com.ECommerce.Entity.User;
 
 @Service
 public class UserService {
