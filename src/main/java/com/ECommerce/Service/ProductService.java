@@ -1,5 +1,7 @@
 package com.ECommerce.Service;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,5 +16,14 @@ public class ProductService {
 	
 	public Product addNewProduct(Product product) {
 		return productDao.save(product);
+	}
+	
+	public List<Product> getAllProducts() {
+		return (List)productDao.findAll();
+	}
+
+	public void deleteProductDetails(Integer productId) {
+		// TODO Auto-generated method stub
+		productDao.deleteById(productId);
 	}
 }
