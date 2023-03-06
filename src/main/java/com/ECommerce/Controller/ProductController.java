@@ -49,11 +49,19 @@ public class ProductController {
 		return imageModels;
 	}
 	
+    @PreAuthorize("hasAuthority('Admin')")
 	@GetMapping("/getAllProducts")
 	public List<Product> getAllProducts() {
 		return productService.getAllProducts();
 	}
+    
+    @PreAuthorize("hasAuthority('Admin')")
+	@GetMapping("/getProductDetailsById/{productId}")
+	public Product getProductDetailsById(@PathVariable Integer productId) {
+		return productService.getProductDetailsById(productId);
+	}
 	
+    @PreAuthorize("hasAuthority('Admin')")
 	@DeleteMapping("/deleteProductDetails/{productId}")
 	public void deleteProductDetails(@PathVariable("productId") Integer productId) {
 		 productService.deleteProductDetails(productId);

@@ -21,6 +21,10 @@ public class ProductService {
 	public List<Product> getAllProducts() {
 		return (List)productDao.findAll();
 	}
+	
+	public Product getProductDetailsById(Integer productId) {
+		return productDao.findById(productId).get();
+	}
 
 	public void deleteProductDetails(Integer productId) {
 		// TODO Auto-generated method stub
